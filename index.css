@@ -1,0 +1,130 @@
+  .attribution {
+    font-size: 11px;
+    width: 450px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  img.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+  }
+
+  .main {
+    width: 100vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+  }
+
+  p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+  }
+
+  span {
+    color: black;
+    font-weight: 700;
+  }
+
+  a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+  }
+
+  button {
+    cursor: pointer;
+    width: 310px;
+    height: 40px;
+    margin: 25px 0 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 10px;
+    border-style: none;
+  }
+
+  .pay {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 20px 17px -10px hsl(224deg 23% 55%);
+  }
+
+  .cancel {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+  }
+
+  .icon {
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .header {
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .holder {
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    box-shadow: 0px 20px 20px 1px hsl(224deg 23% 55%);
+  }
+
+  .middle {
+    text-align: center;
+    padding: 0 70px;
+  }
+
+  .middle2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    width: 310px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px 10px;
+    margin: auto;
+  }
+
+  .footer {
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p:nth-child(2) {
+    flex-grow: 0.5;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  Pale blue: hsl(225, 100%, 94%) //Bright blue: hsl(245, 75%, 52%)
+  - Very pale blue: hsl(225, 100%, 98%) - Desaturated blue: hsl(224, 23%, 55%) - Dark blue: hsl(223, 47%, 23%)
