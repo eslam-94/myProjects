@@ -1,33 +1,20 @@
-  .attribution {
-    font-size: 11px;
-    width: 450px;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-
   img.bg {
+    width: 100vw;
     position: absolute;
     left: 0;
     top: 0;
     z-index: -1;
-    width:100vw;
   }
 
   body {
     background-color: hsl(225, 100%, 94%);
     margin: 0;
-  }
-
-  .main {
     width: 100vw;
-    height: 99vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-
+    justify-content: space-between;
   }
 
   h1 {
@@ -75,6 +62,7 @@
   }
 
   .icon {
+    width: inherit;
     border-radius: 15px 15px 0px 0px;
   }
 
@@ -85,14 +73,14 @@
   .holder {
     border-radius: 15px 15px 15px 15px;
     background-color: white;
-    width: 450px;
+    width: 365px;
     margin: auto;
     box-shadow: 0px 20px 20px 1px hsl(224deg 23% 55%);
   }
 
   .middle {
     text-align: center;
-    padding: 0 70px;
+    padding: 0 50px;
   }
 
   .middle2 {
@@ -121,11 +109,15 @@
   .attribution {
     font-size: 11px;
     text-align: center;
+    padding: 10px
   }
 
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
-
-  Pale blue: hsl(225, 100%, 94%) //Bright blue: hsl(245, 75%, 52%)
-  - Very pale blue: hsl(225, 100%, 98%) - Desaturated blue: hsl(224, 23%, 55%) - Dark blue: hsl(223, 47%, 23%)
+@media screen and (min-width: 500px) {
+  .holder{
+    width: 450px;
+    line-height: 1.6;
+  }
+}
